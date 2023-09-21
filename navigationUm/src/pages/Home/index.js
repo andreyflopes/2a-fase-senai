@@ -2,6 +2,8 @@ import { useNavigation } from "@react-navigation/native";
 import React, { useState } from "react";
 import { View, Text, StyleSheet, Button } from "react-native";
 
+
+
 export default function Home(){
 
     const navigation = useNavigation()
@@ -12,7 +14,13 @@ export default function Home(){
                 title="Ir para Sobre"
                 onPress={() => navigation.navigate('Sobre')}
             />
+
+            <Button 
+            title="Ir para Profile"
+            onPress={()=> navigation.navigate('Profile') }
+            />
         </View>
+
     )
 }
 
