@@ -2,7 +2,7 @@ import { useNavigation } from "@react-navigation/native";
 import React, { useState } from "react";
 import { View, Text, StyleSheet, Button } from "react-native";
 
-
+//teste
 
 export default function Home(){
 
